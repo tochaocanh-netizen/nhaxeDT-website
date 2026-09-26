@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+
+<section class="page-banner">
+  <div class="container">
+    <h1>Liên hệ</h1>
+  </div>
+</section>
+
+<section class="container contact-content">
+  <div class="contact-info">
+    <img class="contact-image" src="/images/contact-illustration.svg" alt="Minh họa liên hệ Nhà Xe Dũng Thu" width="400" height="360">
+
+    <h2>Thông tin liên hệ</h2>
+    <p><strong>Địa chỉ:</strong> 123 Đường Giải Phóng, Hà Nội</p>
+    <p><strong>Hotline:</strong> 0900 123 456</p>
+    <p><strong>Email:</strong> lienhe@nhaxedungthu.vn</p>
+    <p><strong>Giờ làm việc:</strong> 6:00 - 22:00 (Tất cả các ngày trong tuần)</p>
+  </div>
+
+  <form class="contact-form" onsubmit="return false;">
+    <h2>Gửi yêu cầu</h2>
+    <label>Họ và tên
+      <input type="text" name="name" placeholder="Nguyễn Văn A" required>
+    </label>
+    <label>Số điện thoại
+      <input type="tel" name="phone" placeholder="09xxxxxxxx" required>
+    </label>
+    <label>Nội dung
+      <textarea name="message" rows="5" placeholder="Bạn cần hỗ trợ gì?"></textarea>
+    </label>
+    <button type="submit" class="btn btn-primary">Gửi liên hệ</button>
+  </form>
+</section>
+
+<%- include('partials/footer') %>

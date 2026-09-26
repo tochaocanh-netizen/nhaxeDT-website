@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbe6a8"/>
+      <stop offset="50%" stop-color="#e6b94d"/>
+      <stop offset="100%" stop-color="#fbe6a8"/>
+    </linearGradient>
+    <radialGradient id="redBg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#d81f1f"/>
+      <stop offset="100%" stop-color="#9c0e0e"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="100" cy="100" r="98" fill="url(#redBg)"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#gold)" stroke-width="5"/>
+
+  <g transform="translate(42,48) scale(0.78)">
+    <path d="M0 55 C 10 30, 40 15, 70 15 C 95 15, 110 30, 122 45 L124 55 Z" fill="url(#gold)"/>
+    <rect x="0" y="50" width="124" height="14" rx="6" fill="url(#gold)"/>
+    <circle cx="26" cy="66" r="11" fill="url(#gold)"/>
+    <circle cx="26" cy="66" r="4" fill="#9c0e0e"/>
+    <circle cx="92" cy="66" r="11" fill="url(#gold)"/>
+    <circle cx="92" cy="66" r="4" fill="#9c0e0e"/>
+    <g stroke="url(#gold)" stroke-width="3" stroke-linecap="round">
+      <line x1="-14" y1="34" x2="2" y2="34"/>
+      <line x1="-18" y1="40" x2="0" y2="40"/>
+      <line x1="-10" y1="46" x2="4" y2="46"/>
+    </g>
+  </g>
+
+  <text x="100" y="152" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-weight="700" fill="url(#gold)" letter-spacing="1">NHÀ XE</text>
+  <text x="100" y="174" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-weight="700" fill="url(#gold)" letter-spacing="1">DŨNG THU</text>
+</svg>

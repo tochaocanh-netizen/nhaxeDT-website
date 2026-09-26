@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %> | Nhà Xe Dũng Thu</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">
+        <img src="/images/add.jpg" alt="Nhà Xe Dũng Thu" class="logo-img">
+        <span class="logo-text">Nhà Xe <span>Dũng Thu</span></span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <% nav.forEach(function(item) { %>
+            <li><a href="<%= item.href %>" class="<%= activePath === item.href ? 'active' : '' %>"><%= item.label %></a></li>
+          <% }); %>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
